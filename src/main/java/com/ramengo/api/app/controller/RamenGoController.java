@@ -11,6 +11,7 @@ import com.ramengo.api.app.service.ProteinsServiceInterface;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -40,9 +41,9 @@ public class RamenGoController {
 
     @PostMapping(value = "/order")
     public ResponseEntity<OrderReponse> createOrder(
-            @Valid
+
             @RequestHeader(value = "x-api-key", required = false) String apiKey,
-            @RequestBody OrderRequest orderRequest) {
+            @RequestBody @Valid OrderRequest orderRequest) {
             OrderReponse orderReponse = orderService.insert(orderRequest);
 
             return ResponseEntity.status(201).body(orderReponse);
