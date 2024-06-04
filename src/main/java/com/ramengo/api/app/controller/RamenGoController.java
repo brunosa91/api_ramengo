@@ -17,8 +17,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/orders")
-
-
 public class RamenGoController {
 
     @Autowired
