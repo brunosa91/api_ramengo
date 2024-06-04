@@ -1,7 +1,7 @@
-package com.reamegon.domain.usecases;
+package com.remengo.api.domain.usecases;
 
-import com.reamegon.app.dto.ProteinsResponse;
-import com.reamegon.domain.model.ProteinsModel;
+
+import com.remengo.api.domain.model.ProteinsModel;
 
 import java.util.List;
 

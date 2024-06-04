@@ -1,4 +1,4 @@
-package com.remengo.api.domain;
+package com.remengo.api.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

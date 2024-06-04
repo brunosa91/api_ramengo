@@ -1,7 +1,7 @@
-package com.reamegon.domain.gateway;
+package com.remengo.api.domain.gateway;
 
-import com.reamegon.app.dto.BrothResponse;
-import com.reamegon.domain.model.BrothModel;
+
+import com.remengo.api.domain.model.BrothModel;
 
 import java.util.List;
 

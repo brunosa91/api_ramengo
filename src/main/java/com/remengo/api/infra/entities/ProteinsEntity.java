@@ -1,6 +1,6 @@
-package com.remengo.api.domain.model;
+package com.remengo.api.infra.entities;
 
-
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,18 +8,20 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class BrothModel {
-
+@Entity
+@Table(name = "proteinas_entity")
+public class ProteinsEntity {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
+    @Column
     private String imageInactive;
-
+    @Column
     private String imageActive;
-
+    @Column
     private String name;
-
+    @Column
     private String description;
-
+    @Column
     private Double price;
 }
-

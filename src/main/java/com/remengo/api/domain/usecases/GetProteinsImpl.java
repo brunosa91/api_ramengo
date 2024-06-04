@@ -1,8 +1,7 @@
-package com.reamegon.domain.usecases;
+package com.remengo.api.domain.usecases;
 
-import com.reamegon.app.dto.ProteinsResponse;
-import com.reamegon.domain.gateway.ProteinsGateway;
-import com.reamegon.domain.model.ProteinsModel;
+import com.remengo.api.domain.gateway.ProteinsGateway;
+import com.remengo.api.domain.model.ProteinsModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

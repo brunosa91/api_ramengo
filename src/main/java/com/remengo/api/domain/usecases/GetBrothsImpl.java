@@ -1,8 +1,7 @@
-package com.reamegon.domain.usecases;
+package com.remengo.api.domain.usecases;
 
-import com.reamegon.app.dto.BrothResponse;
-import com.reamegon.domain.gateway.BrothsGateway;
-import com.reamegon.domain.model.BrothModel;
+import com.remengo.api.domain.gateway.BrothsGateway;
+import com.remengo.api.domain.model.BrothModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

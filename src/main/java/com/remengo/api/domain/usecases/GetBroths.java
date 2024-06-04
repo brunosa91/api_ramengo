@@ -1,7 +1,7 @@
-package com.reamegon.domain.usecases;
+package com.remengo.api.domain.usecases;
 
-import com.reamegon.app.dto.BrothResponse;
-import com.reamegon.domain.model.BrothModel;
+
+import com.remengo.api.domain.model.BrothModel;
 
 import java.util.List;
 
