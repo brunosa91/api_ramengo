@@ -26,7 +26,7 @@ public class OrderService {
     private Mapper mapper;
     @Autowired
     private HttpServletRequest request;
-    @Value("${api.key}")
+    @Value("${API_KEY}")
     private String apiKey;
 
     public OrderReponse insert(OrderRequest orderRequest) {
